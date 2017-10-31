@@ -1,5 +1,6 @@
 # MyTooL-1
-## MyTool工具 - 专门来解决DOM操作中的问题及浏览器兼容性 - Node对象中获取子节点和兄弟节点时的空白节点问题   
+## MyTool工具 - 专门来解决DOM操作中的问题及浏览器兼容性 - Node对象中获取子节点和兄弟节点时的空白节点问题 
+```js
 /*
     firstChild()函数 - 用于解决获取第一个子节点的空白节点
     * 参数
@@ -46,3 +47,4 @@ function nextSibling(node){
     }
     return next;
 }
+```
